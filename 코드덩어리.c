@@ -2154,3 +2154,80 @@ else if (c > b && b > a) printf("%d", b);*/ //수행평가 힌트
 //printf("%d", c);
 //return 0;
 //}
+
+//#include <stdio.h>
+//// 함수 정의
+//void MyFunc();
+//struct Point //Point라는 이름의 구조체 정의 (함수 외부)
+//{
+//	int x;	// Point 구조체를 구성하는 멤버 x
+//	int y;	//	Point 구조체를 구성하는 멤버 y
+//};
+//struct Point g_myPoint;	// struct Point형 (전역)변수 선언 가능
+//int main()
+//{
+//	struct Point myPoint0;	//	struct	Point형 (지역)변수 선언 가능
+//	return 0;
+//}
+//void MyFunc()
+//{
+//	struct Point myPoint1;	// struct Point형 (지역)변수 선언 가능
+//}
+
+//#include <stdio.h>
+//#include <string.h>
+//#pragma warning(disable:4996)
+//struct Person	//	struct	Person	구조체	선언
+//{
+//	double height;
+//	double weight;
+//	char name[10];
+//	short grade;
+//};
+//int main()
+//{
+//	//	struct	Person	구조체	변수	person	선언
+//	//	구조체	멤버	접근	및	값	채우기
+//	//	구조체	멤버	접근	및	출력
+//	struct Person p1;
+//	p1.height = 180;
+//	p1.weight = 67;
+//	strcpy(p1.name, "유찬홍");
+//	p1.grade = 3;
+//
+//	printf("person.height : %.1lf\n", p1.height);
+//	printf("person.weight :	%.1lf\n", p1.weight);
+//	printf("person.name : %s\n", p1.name);
+//	printf("person.grade : %d\n", p1.grade);
+//	return 0;
+//}
+
+//#include <stdio.h>
+//#include <string.h>
+//#pragma warning(disable:4996)
+//
+//struct employee
+//{
+//	int rmqduwjdqh;
+//	char jumin[14];
+//	char name[20];
+//};
+
+//int main() {
+//
+//	struct employee e1;
+//
+//	printf("이름: ");
+//	scanf("%s", e1.name);
+//	printf("급여정보: ");
+//	scanf("%d", &e1.rmqduwjdqh);
+//	printf("주민번호 : ");
+//	scanf("%s", e1.jumin);
+//
+//	printf("이름: %s\n", e1.name);
+//	printf("급여정보: %d\n", e1.rmqduwjdqh);
+//	printf("주민번호 : %s\n", e1.jumin);
+//
+//
+//	return 0;
+//}
