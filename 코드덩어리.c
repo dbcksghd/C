@@ -2231,3 +2231,83 @@ else if (c > b && b > a) printf("%d", b);*/ //수행평가 힌트
 //
 //	return 0;
 //}
+//1734번 문제 풀이
+//#include <stdio.h>
+//
+//
+//int main()
+//{
+//
+//    char a[100];
+//    char b[100];
+//
+//    scanf("%s %s", a, b);
+//    int i, j, l, k;
+//    for (i = 0; a[i] != '\0'; i++) {}
+//    for (j = 0; b[j] != '\0'; j++) {}
+//
+//    l = i;
+//    k = j;
+//    if (l > k) {
+//        for (j = 0; b[j] != '\0'; j++)
+//        {
+//            printf("%c", b[j]);
+//        }
+//        printf(" ");
+//        for (i = 0; a[i] != '\0'; i++)
+//        {
+//            printf("%c", a[i]);
+//        }
+//
+//    }
+//    else if (l < k) {
+//        for (i = 0; a[i] != '\0'; i++)
+//        {
+//            printf("%c", a[i]);
+//        }
+//        printf(" ");
+//        for (j = 0; b[j] != '\0'; j++)
+//        {
+//            printf("%c", b[j]);
+//        }
+//
+//
+//
+//    }
+//    else if (l == k) {
+//        for (i = 0; a[i] != '\0'; i++) {
+//            if (a[i] > b[i]) {
+//                for (j = 0; b[j] != '\0'; j++)
+//                {
+//                    printf("%c", b[j]);
+//                }
+//                printf(" ");
+//                for (i = 0; a[i] != '\0'; i++)
+//                {
+//                    printf("%c", a[i]);
+//                }
+//
+//
+//                break;
+//            }
+//            else if (a[i] < b[i]) {
+//                for (i = 0; a[i] != '\0'; i++)
+//                {
+//                    printf("%c", a[i]);
+//                }
+//                printf(" ");
+//                for (j = 0; b[j] != '\0'; j++)
+//                {
+//                    printf("%c", b[j]);
+//                }
+//
+//
+//                break;
+//            }
+//
+//
+//        }
+//
+//    }
+//    return 0;
+//}
