@@ -2310,4 +2310,46 @@ else if (c > b && b > a) printf("%d", b);*/ //수행평가 힌트
 //
 //    }
 //    return 0;
+<<<<<<< HEAD
+//}
+
+//구조체 배열로 입력받기
+//#define _CRT_SECURE_NO_WARNINGS
+//#include<stdio.h>
+//#include<stdlib.h>
+//#define SIZE 100
+//
+//
+//struct student {
+//	int number;
+//	char name[20];
+//	double grade;
+//};
+//int main()
+//{
+//	int i;
+//	char status;
+//	struct student a[SIZE];
+//	for (i = 0; i < SIZE; i++)
+//	{
+//		printf("학번 입력 : ");
+//		scanf("%d", &a[i].number);
+//		printf("이름 입력 : ");
+//		scanf("%s", &a[i].name[0]);
+//		printf("학점 입력 : ");
+//		scanf("%lf", &a[i].grade);
+//
+//		printf("더 입력  하시겠습니까?(y/n)\n");
+//		scanf(" %c", &status);
+//		if (status == 'n') {
+//			break;
+//		}
+//	}
+//	for (int j = 0; j <= i; j++)
+//	{
+//		printf("학번 : %d, 이름 : %s, 학점 : %.2lf\n", a[j].number, a[j].name, a[j].grade);
+//	}
+//	return 0;
+=======
+>>>>>>> master
 //}
