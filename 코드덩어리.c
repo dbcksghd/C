@@ -2350,6 +2350,30 @@ else if (c > b && b > a) printf("%d", b);*/ //수행평가 힌트
 //		printf("학번 : %d, 이름 : %s, 학점 : %.2lf\n", a[j].number, a[j].name, a[j].grade);
 //	}
 //	return 0;
-=======
->>>>>>> master
+//}
+
+//#define _CRT_SECURE_NO_WARNINGS
+//#include <stdio.h>
+//
+//int main() {
+//
+//	int a, b, c, up = 0, down = 0, d = 1, e = 1;
+//	scanf("%d %d", &a, &b);
+//	for (int i = 0; i < a; i++)
+//	{
+//		scanf("%d", &c);
+//		if (c <= b) down++;
+//		else if (c > b) up++;
+//	}
+//	for (int i = 1; i <= down; i++)
+//	{
+//		d *= i;
+//	}
+//	for (int i = 1; i <= up; i++)
+//	{
+//		e *= i;
+//	}
+//	printf("%d", d * e);
+//
+//	return 0;
 //}
