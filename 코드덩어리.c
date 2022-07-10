@@ -2310,7 +2310,6 @@ else if (c > b && b > a) printf("%d", b);*/ //수행평가 힌트
 //
 //    }
 //    return 0;
-<<<<<<< HEAD
 //}
 
 //구조체 배열로 입력받기
@@ -2375,5 +2374,23 @@ else if (c > b && b > a) printf("%d", b);*/ //수행평가 힌트
 //	}
 //	printf("%d", d * e);
 //
+//	return 0;
+//}
+//#include <stdio.h>
+//typedef struct point {
+//	int xpos;
+//	int ypos;
+//}	Point;
+//typedef struct circle {
+//	double radius;
+//	Point* center;
+//}	Circle;
+//int main()
+//{
+//	Point cen = { 30,100 };
+//	double rad = 5.5;
+//	Circle ring = { rad, &cen };
+//	printf("원의 반지름	: %lf \n", ring.radius);
+//	printf("원의 중심 [%d %d] \n", (ring.center)->xpos, (ring.center)->ypos);
 //	return 0;
 //}
