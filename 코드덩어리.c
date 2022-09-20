@@ -2394,3 +2394,310 @@ else if (c > b && b > a) printf("%d", b);*/ //수행평가 힌트
 //	printf("원의 중심 [%d %d] \n", (ring.center)->xpos, (ring.center)->ypos);
 //	return 0;
 //}
+/*#include <stdio.h>
+
+int main(){
+    
+    int n, m, a, b;
+    scanf("%d %d", &n, &m);
+    for (int i = 0; i<n; i++){
+        a = n-i;
+        b = i;
+        if (a-b == m){
+            printf("%d %d", a, b);
+            return 0;
+        }
+    }
+    printf("-1");
+    return 0;
+}
+#include <stdio.h>
+
+int main(){
+    
+    int a, b, n, m;
+    scanf("%d %d", &n, &m);
+    if ((n-m)<0||(n-m)%2==1){
+        printf("-1");
+    }
+    else {
+        a = (n+m)/2;
+        b = (n-m)/2;
+        printf("%d %d", a, b);
+    }
+    return 0;
+}
+*/
+//#include <stdio.h>
+//
+//int main()
+//{
+//    int n, p=1;
+//    scanf("%d", &n);
+//    for (int i = 1; i<=n; i++){
+//        p *=i;
+//        p %=10;
+//    }
+//    printf("%d", p);
+//    return 0;
+//}
+
+//#include <stdio.h>
+//
+//int main(){
+//
+//    int n, sum=0;
+//    char arr[51];
+//    scanf("%d", &n);
+//    scanf("%s", arr);
+//    for (int i = 0; i<n; i++){
+//        if (arr[i] == 'a' ||arr[i] == 'e'||arr[i] == 'i'||arr[i] == 'o'||arr[i] == 'u'){
+//            sum++;
+//        }
+//    }
+//    printf("%d", sum);
+//    return 0;
+//}
+
+/*#include <stdio.h>
+
+int main(){
+    int h1, m1, s1, h2, m2, s2, f, t, t2;
+    char b;
+    printf("시간과 부호를 입력하세요 : ");
+    scanf("%d %d %d %c", &h1, &m1, &s1, &b);
+    t = h1 * 3600 + m1 * 60 + s1;
+    if (b == '*' || b == '/'){
+        printf("얼마나 곱하거나 나눌지 입력하세요 : ");
+        scanf("%d", &f);
+        if (b == '*'){
+            t *= f;
+            h1 = t /3600;
+            m1 = t % 3600 / 60;
+            s1 = t % 3600 % 60;
+            
+        } else if (b == '/'){
+            t /= f;
+            h1 = t /3600;
+            m1 = t % 3600 / 60;
+            s1 = t % 3600 % 60;
+        }
+    } else {
+        printf("더하거나 뺄 시간을 입력하세요 : ");
+        scanf("%d %d %d", &h2, &m2, &s2);
+        if (b == '+'){
+            t += h2 * 3600 + m2 * 60 + s2;
+            h1 = t /3600;
+            m1 = t % 3600 / 60;
+            s1 = t % 3600 % 60;
+        } else if (b == '-'){
+            t2 = h2 * 3600 + m2 * 60 + s2;
+            if (t > t2){
+                t -= t2;
+                h1 = t /3600;
+                m1 = t % 3600 / 60;
+                s1 = t % 3600 % 60;
+            }else {
+                t2 -= t;
+                h1 = t2 /3600;
+                m1 = t2 % 3600 / 60;
+                s1 = t2 % 3600 % 60;
+            }
+            
+        }
+        
+    }
+    printf("%d시간 %d분 %d초", h1, m1, s1);
+    return 0;
+}
+*/
+
+//#include <stdio.h>
+//#include <string.h>
+//
+//int main()
+//{
+//
+//    int j=0;
+//    char arr[100]={0}, arri[100];
+//    scanf("%s", arr);
+//    for (int i = 0; arr[i] != 0; i++) {
+//        if (arr[i] >=65 && arr[i] <=90) {
+//            arri[j] = arr[i];
+//            j++;
+//        }
+//    }
+//    for (int i = 0; i<strlen(arri); i++) {
+//        printf("%c", arri[i]);
+//    }
+//    return 0;
+//}
+
+/*#include <stdio.h>
+
+int main() {
+    int a, b, c;
+    int arr[3], min = 10000;
+    scanf("%d %d %d", &a, &b, &c);
+    arr[0] = b*2+c*4;
+    arr[1] = a*2+c*2;
+    arr[2] = a*4+b*2;
+    for (int i = 0; i<3; i++){
+        if (min>arr[i]) min = arr[i];
+    }
+    printf("%d", min);
+    return 0;
+}*/
+
+/*#include <stdio.h>
+
+int main(){
+    
+    int a, b;
+    scanf("%d %d", &a, &b);
+    if (a-b <60) printf("%d", (a-b)*1500);
+    else printf("%d", (a-b)*3000);
+    return 0;
+}
+*/
+
+/*#include<stdio.h>
+#include<stdlib.h>
+#include <time.h>
+
+#define MAX_SIZE 10
+
+int arr[MAX_SIZE];
+void Bubble_sort(int n) {
+    int temp;
+    for (int i = 0; i<=8; i++){
+        for (int j = 0; j<=8-i; j++){
+            if (arr[j]>arr[j+1]){
+                temp = arr[j];
+                arr[j] = arr[j+1];
+                arr[j+1] = temp;
+            }
+        }
+    }
+    for (int i= 0; i<n; i++){
+        printf("%d ", arr[i]);
+    }
+}
+
+int main() {
+    srand(time(NULL));
+    int n = MAX_SIZE;
+    for (int i = 0; i < n; i++) {
+        arr[i] = rand() % 100;
+    }
+    for (int i = 0; i<n; i++){
+        printf("%d ", arr[i]);
+    }
+    printf("\n");
+    Bubble_sort(n);
+
+    //정렬된 배열 출력
+  return 0;
+}
+*/
+
+/*#include<stdio.h>
+#include<stdlib.h>
+
+#include <time.h>
+#define MAX_SIZE 10
+
+int arr[MAX_SIZE];
+
+void insertion_sort(int arr[], int first, int last, int gap) {
+    int i, j, key;
+    for (i = first + gap; i <= last; i+=gap){
+        key = arr[i];
+        for (j = i - gap; j >= 0 && arr[j] > key; j -= gap) {
+            arr[j+gap] = arr[j];
+        }
+        arr[j+gap] = key;
+    }
+}
+
+void shell_sort(int arr[], int n) {
+    int i, gap;
+    for (gap = n/2; gap>0; gap/=2){//간격 정하기 gap 변수 활용
+        if (gap % 2 == 0) gap++; //gap이 짝수일 때 1을 더하는 것이 좋은 것으로 분석되었다.
+        for (i = 0; i < gap; i++) {
+            insertion_sort(arr, i, n-1, gap);
+        }
+        for (int j = 0; j<n; j++){
+            printf("%d ",arr[j]);
+        }
+        printf("\n");
+    }
+}
+
+int main() {
+    int n = MAX_SIZE;
+    srand(time(NULL));
+    for (int i = 0; i < n; i++) {
+        arr[i] = rand() % 100;
+    }
+    for (int i = 0; i<n; i++) {
+        printf("%d ", arr[i]);
+    }
+    printf("\n");
+    
+    shell_sort(arr, n);
+
+    for (int i = 0; i < n; i++) {
+        printf("%d ", arr[i]);
+    }
+    return 0;
+}
+*/
+
+//#include <stdio.h>
+//int main(){
+//
+//    int n;
+//    scanf("%d", &n);
+//    if (n %2 == 0) printf("SK");
+//    else printf("CY");
+//    return 0;
+//}
+
+/*#include <stdio.h>
+
+int main(){
+    
+    
+    int a, b, t;
+    scanf("%d %d", &a, &b);
+    t = (a+b)%12;
+    if (t == 0) printf("12");
+    else printf("%d", t);
+    return 0;
+}*/
+
+//#include <stdio.h>
+//
+//int main(){
+//
+//    int n, m;
+//    scanf("%d %d", &n, &m);
+//    printf("%d %d %d %d %d %d\n%d %d", 100-n, 100-m,m+n-100, (100-n)*(100-m), (100-n)*(100-m)/100, (100-n)*(100-m)%100, m+n-100+(100-n)*(100-m)/100, (100-n)*(100-m)%100);
+//    return 0;
+//}
+
+/*#include <stdio.h>
+
+int main(){
+    
+    int n, m;
+    scanf("%d %d", &n, &m);
+    for (int i = 0; i<n; i++){
+        for (int j = 0; j<m; j++){
+            printf("*");
+        }
+        printf("\n");
+    }
+    return 0;
+}*/
