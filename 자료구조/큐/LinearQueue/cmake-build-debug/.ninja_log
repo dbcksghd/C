@@ -1,0 +1,5 @@
+# ninja log v5
+0	1694	1666158806438094046	CMakeFiles/LinearQueue.dir/main.c.o	b91cbb459a4a861f
+1694	1855	1666158806600657548	LinearQueue	598b62010c44caac
+0	31	1666158817066100405	CMakeFiles/LinearQueue.dir/main.c.o	b91cbb459a4a861f
+31	67	1666158817102393798	LinearQueue	598b62010c44caac
