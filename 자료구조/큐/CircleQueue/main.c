@@ -29,7 +29,10 @@ int is_full(QueueType *q) {
 // 삽입 함수
 void enqueue(QueueType *q, int item) {
     if (is_full(q)) printf("큐가 포화상태입니다");
-    else q->data[++(q->rear)] = item;
+    else {
+        q->rear = (q->rear + 1) % MAX_QUEUE_SIZE;
+        q->data[++(q->rear)] = item;
+    }
 }
 
 // 삭제 함수
