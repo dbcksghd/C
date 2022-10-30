@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "bubble_sort",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "bubble_sort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bubble_sort-Debug-af705afb2b69915cdb98.json",
+					"name" : "bubble_sort",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/yoochanhong/Desktop/github/C/\uc790\ub8cc\uad6c\uc870/\uc815\ub82c/bubble_sort/cmake-build-debug",
+		"source" : "/Users/yoochanhong/Desktop/github/C/\uc790\ub8cc\uad6c\uc870/\uc815\ub82c/bubble_sort"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
