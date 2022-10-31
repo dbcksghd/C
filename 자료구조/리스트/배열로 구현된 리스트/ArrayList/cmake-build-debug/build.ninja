@@ -36,7 +36,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /Users/yoochanhong/Desktop/github/C/자료구조/리스트/ArrayList/cmake-build-debug/
+cmake_ninja_workdir = /Users/yoochanhong/Desktop/github/C/자료구조/리스트/배열로$ 구현된$ 리스트/ArrayList/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target ArrayList
 
@@ -46,7 +46,7 @@ cmake_ninja_workdir = /Users/yoochanhong/Desktop/github/C/자료구조/리스트
 
 build cmake_object_order_depends_target_ArrayList: phony || CMakeFiles/ArrayList.dir
 
-build CMakeFiles/ArrayList.dir/main.c.o: C_COMPILER__ArrayList_Debug /Users/yoochanhong/Desktop/github/C/자료구조/리스트/ArrayList/main.c || cmake_object_order_depends_target_ArrayList
+build CMakeFiles/ArrayList.dir/main.c.o: C_COMPILER__ArrayList_Debug /Users/yoochanhong/Desktop/github/C/자료구조/리스트/배열로$ 구현된$ 리스트/ArrayList/main.c || cmake_object_order_depends_target_ArrayList
   DEP_FILE = CMakeFiles/ArrayList.dir/main.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/ArrayList.dir
@@ -76,7 +76,7 @@ build ArrayList: C_EXECUTABLE_LINKER__ArrayList_Debug CMakeFiles/ArrayList.dir/m
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/yoochanhong/Desktop/github/C/자료구조/리스트/ArrayList/cmake-build-debug && "/Users/yoochanhong/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd "/Users/yoochanhong/Desktop/github/C/자료구조/리스트/배열로 구현된 리스트/ArrayList/cmake-build-debug" && "/Users/yoochanhong/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -87,7 +87,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/yoochanhong/Desktop/github/C/자료구조/리스트/ArrayList/cmake-build-debug && "/Users/yoochanhong/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/CLion.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S/Users/yoochanhong/Desktop/github/C/자료구조/리스트/ArrayList -B/Users/yoochanhong/Desktop/github/C/자료구조/리스트/ArrayList/cmake-build-debug
+  COMMAND = cd "/Users/yoochanhong/Desktop/github/C/자료구조/리스트/배열로 구현된 리스트/ArrayList/cmake-build-debug" && "/Users/yoochanhong/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/CLion.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S"/Users/yoochanhong/Desktop/github/C/자료구조/리스트/배열로 구현된 리스트/ArrayList" -B"/Users/yoochanhong/Desktop/github/C/자료구조/리스트/배열로 구현된 리스트/ArrayList/cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -103,7 +103,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: /Users/yoochanhong/Desktop/github/C/자료구조/리스트/ArrayList/cmake-build-debug
+# Folder: /Users/yoochanhong/Desktop/github/C/자료구조/리스트/배열로 구현된 리스트/ArrayList/cmake-build-debug
 
 build all: phony ArrayList
 

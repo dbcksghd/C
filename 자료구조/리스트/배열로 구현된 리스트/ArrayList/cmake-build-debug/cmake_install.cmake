@@ -1,4 +1,4 @@
-# Install script for directory: /Users/yoochanhong/Desktop/github/C/자료구조/리스트/ArrayList
+# Install script for directory: /Users/yoochanhong/Desktop/github/C/자료구조/리스트/배열로 구현된 리스트/ArrayList
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/yoochanhong/Desktop/github/C/자료구조/리스트/ArrayList/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/yoochanhong/Desktop/github/C/자료구조/리스트/배열로 구현된 리스트/ArrayList/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
