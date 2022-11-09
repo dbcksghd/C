@@ -44,6 +44,14 @@ void print_list(ListNode *head) {
     printf("NULL\n");
 }
 
+int get_length(ListNode *head){
+    int count = 0;
+    for (ListNode *p = head; p != NULL; p = p->link){
+        count++;
+    }
+    return count;
+}
+
 int main() {
     ListNode *head = NULL;
 
@@ -51,11 +59,11 @@ int main() {
         head = insert_first(head, i * 10);
         print_list(head);
     }
-
     for (int i = 1; i <= 2; i++) {
         head = delete_first(head);
         print_list(head);
     }
+    printf("%d", get_length(head));
 
     return 0;
 }
