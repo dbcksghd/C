@@ -51,13 +51,9 @@ ListNode *delete_first(ListNode *head) {
 }
 
 ListNode *delete_last(ListNode *head) {
-    int count = 0;
     ListNode *removed = head;
-    ListNode *p;
-    for (p = head->link; p != head; p = p->link) {
-        count++;
-    }
-    for (int i = 0; i < count; i++) {
+    ListNode *p = head;
+    while (p->link != head) {
         p = p->link;
     }
     p->link = head->link;
