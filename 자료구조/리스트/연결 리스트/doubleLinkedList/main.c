@@ -10,29 +10,37 @@ typedef struct DListNode {	// 이중연결 노드 타입
 // 이중 연결 리스트를 초기화
 void init(DListNode* phead)
 {
-    // phead->llink =  초기화 무엇?
-    // phead->rlink =  초기화 무엇?
+    phead->llink = phead;
+    phead->rlink = phead;
 }
 // 이중 연결 리스트의 노드를 출력
 void print_dlist(DListNode* phead)
 {
     DListNode* p;
-    // 모든 노드의 데이터 출력하려면?
+    for (p = phead->rlink; p != phead; p = p->rlink) {
+        printf("<-| |%d| |-> ", p->data);
+    }
+    printf("\n");
 }
 // 새로운 데이터를 노드 before의 오른쪽에 삽입한다.
 void dinsert(DListNode* before, int item)
 {
     DListNode* newnode = (DListNode*)malloc(sizeof(DListNode));
     newnode->data = item;
-    // 삽입 코드
+    newnode->llink = before;
+    newnode->rlink = before->rlink;
+    before->rlink->llink = newnode;
+    before->rlink = newnode;
 }
 // 노드 removed를 삭제한다.
 void ddelete(DListNode* head, DListNode* removed)
 {
-    //삭제 코드
+    if (removed == head) return;
+    removed->llink->rlink = removed->rlink;
+    removed->rlink->llink = removed->llink;
     free(removed);
 }
-
+// 이중 연결 리스트 테스트 프로그램
 int main(void)
 {
     DListNode* head = (DListNode*)malloc(sizeof(DListNode));
