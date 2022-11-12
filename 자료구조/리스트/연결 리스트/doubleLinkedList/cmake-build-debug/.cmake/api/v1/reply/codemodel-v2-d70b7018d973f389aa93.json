@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "doubleLinkedList",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "doubleLinkedList::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-doubleLinkedList-Debug-385a3fe8a6123d1108ce.json",
+					"name" : "doubleLinkedList",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/yoochanhong/Desktop/github/C/\uc790\ub8cc\uad6c\uc870/\ub9ac\uc2a4\ud2b8/\uc5f0\uacb0 \ub9ac\uc2a4\ud2b8/doubleLinkedList/cmake-build-debug",
+		"source" : "/Users/yoochanhong/Desktop/github/C/\uc790\ub8cc\uad6c\uc870/\ub9ac\uc2a4\ud2b8/\uc5f0\uacb0 \ub9ac\uc2a4\ud2b8/doubleLinkedList"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

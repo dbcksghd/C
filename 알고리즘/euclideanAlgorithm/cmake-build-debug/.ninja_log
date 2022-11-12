@@ -1,0 +1,9 @@
+# ninja log v5
+0	31	1668255440163534728	CMakeFiles/euclideanAlgorithm.dir/main.c.o	8c51186c3bb9ecc1
+31	73	1668255440206255246	euclideanAlgorithm	2305efc51313017e
+1	32	1668255450138976891	CMakeFiles/euclideanAlgorithm.dir/main.c.o	8c51186c3bb9ecc1
+32	71	1668255450178565683	euclideanAlgorithm	2305efc51313017e
+1	30	1668255453844720716	CMakeFiles/euclideanAlgorithm.dir/main.c.o	8c51186c3bb9ecc1
+31	73	1668255453888028846	euclideanAlgorithm	2305efc51313017e
+1	31	1668255458363682139	CMakeFiles/euclideanAlgorithm.dir/main.c.o	8c51186c3bb9ecc1
+31	72	1668255458405204391	euclideanAlgorithm	2305efc51313017e
