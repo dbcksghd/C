@@ -9,7 +9,7 @@ struct Treenode {
 struct Treenode* new_node(int key) {
     struct Treenode* new = (struct Treenode*)malloc(sizeof(struct Treenode));
     new->data = key;//new노드에 key값 대입
-    new->left, new->right = NULL;//new의 left와 right를 NULL로
+    new->left = new->right = NULL;//new의 left와 right를 NULL로
     return new;
 }
 
