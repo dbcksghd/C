@@ -1,0 +1,13 @@
+# ninja log v5
+0	29	1670977614351675084	CMakeFiles/LongestIncreasingSubsequence.dir/main.c.o	f283dbeb2288c4b5
+29	68	1670977614391826380	LongestIncreasingSubsequence	3ea3fd1a60c6cb8b
+1	28	1670977645224720019	CMakeFiles/LongestIncreasingSubsequence.dir/main.c.o	f283dbeb2288c4b5
+28	65	1670977645262778012	LongestIncreasingSubsequence	3ea3fd1a60c6cb8b
+1	25	1670977660007799920	CMakeFiles/LongestIncreasingSubsequence.dir/main.c.o	f283dbeb2288c4b5
+25	60	1670977660043471528	LongestIncreasingSubsequence	3ea3fd1a60c6cb8b
+1	28	1670977669577625711	CMakeFiles/LongestIncreasingSubsequence.dir/main.c.o	f283dbeb2288c4b5
+28	62	1670977669614351347	LongestIncreasingSubsequence	3ea3fd1a60c6cb8b
+0	23	1670977672102197809	CMakeFiles/LongestIncreasingSubsequence.dir/main.c.o	f283dbeb2288c4b5
+23	57	1670977672136571768	LongestIncreasingSubsequence	3ea3fd1a60c6cb8b
+0	24	1670977691888474197	CMakeFiles/LongestIncreasingSubsequence.dir/main.c.o	f283dbeb2288c4b5
+24	56	1670977691921662630	LongestIncreasingSubsequence	3ea3fd1a60c6cb8b
