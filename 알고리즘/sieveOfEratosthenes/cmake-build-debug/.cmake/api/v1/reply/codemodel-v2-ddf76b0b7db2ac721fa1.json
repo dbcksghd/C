@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "sieveOfEratosthenes",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "sieveOfEratosthenes::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sieveOfEratosthenes-Debug-90fe87e2eb5cc2263bc4.json",
+					"name" : "sieveOfEratosthenes",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/yoochanhong/Desktop/github/C/\uc54c\uace0\ub9ac\uc998/sieveOfEratosthenes/cmake-build-debug",
+		"source" : "/Users/yoochanhong/Desktop/github/C/\uc54c\uace0\ub9ac\uc998/sieveOfEratosthenes"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

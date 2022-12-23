@@ -1,0 +1,3 @@
+/Users/yoochanhong/Desktop/github/C/알고리즘/sieveOfEratosthenes/cmake-build-debug/CMakeFiles/sieveOfEratosthenes.dir
+/Users/yoochanhong/Desktop/github/C/알고리즘/sieveOfEratosthenes/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/yoochanhong/Desktop/github/C/알고리즘/sieveOfEratosthenes/cmake-build-debug/CMakeFiles/rebuild_cache.dir
