@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "LowerBound",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "LowerBound::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LowerBound-Debug-74b14ea3b0e42bdb6b1c.json",
+					"name" : "LowerBound",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/yoochanhong/Desktop/github/C/\uc54c\uace0\ub9ac\uc998/\uc774\ubd84 \ud0d0\uc0c9/LowerBound/cmake-build-debug",
+		"source" : "/Users/yoochanhong/Desktop/github/C/\uc54c\uace0\ub9ac\uc998/\uc774\ubd84 \ud0d0\uc0c9/LowerBound"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
